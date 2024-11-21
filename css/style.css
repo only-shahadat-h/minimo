@@ -1,0 +1,210 @@
+/* common css */
+body{
+	margin: 0;
+	font-family: "Playfair Display", serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #626262;
+
+}
+/* common end */
+/* heaer start */
+header{
+	padding: 30px 0;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.logo{
+	width: 13%;
+    float: left;
+    margin-top: 7px;
+}
+.logo a{
+	display: block;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+    display: inline-block;
+    font-weight: 400;
+    color: #626262;
+    text-decoration: none;
+    margin: 0 50px;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid;
+}
+/* header end */
+/* banner start */
+.banner{
+	padding: ;
+}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/* banner end */
+/* perfect start */
+.perfect{
+	padding: 100px 0 100px;
+}
+.container2{
+	width: 80%;
+	margin: 0 auto;
+}
+.p_content{}
+.c_light{
+	margin: 0;
+	font-family: "Ubuntu", serif;
+	font-weight: 300;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.c_title{
+	margin: 15px 0 20px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_p{
+	margin: 0;
+	line-height: 24px;
+}
+.c_link{
+	margin-top: 35px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+}
+/* perfect end */
+/* lifestyle start */
+.life_style{
+	padding: 100px 0 100px;
+}
+.l_content{
+overflow: hidden;
+}
+.life_c1{
+	width: 45%;
+	float: left;
+}
+.life_c2{
+	width: 45%;
+	float: right;
+}
+.l_content1{
+	overflow: hidden;
+	padding-top: 100px;
+}
+.l_img{}
+.l_img img{
+	width: 100%;
+}
+.more{
+	padding: 150px  0 50px;
+    text-align: center;
+}
+.more_a{
+	font-size: 20px;
+	font-weight: 400;
+	color: #626262;
+	border: 2px solid #888888;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+/* lifestyle end */
+/* subscribe start */
+.subscribe{
+	background: #f0f0f0;
+    padding: 100px 0;
+}
+.s_content h2{
+	text-align: center;
+}
+.s_form{
+	width: 34%;
+    margin: 0 auto;
+    display: block;
+    border-bottom: 2px solid #888888;
+    position: relative;
+}
+.email{
+	background: transparent;
+    margin-top: 35px;
+    border: none;
+    text-transform: initial;
+    padding: 7px 0;
+}
+.s_form button{
+	padding: 10px;
+	font-size: 15px;
+	border: none;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+/* subscribe end */
+/* footer start */
+footer{
+	background: #f0f0f0;
+}
+.term{
+	padding: 20px 0;
+    width: 30%;
+    float: left;
+    margin-top: 15px;
+}
+.term a{
+	font-size: 10px;
+    display: inline-block;
+    font-weight: 400;
+    color: #626262;
+    text-decoration: none;
+    margin: 0 5px;
+    text-transform: uppercase;
+}
+.icon{
+	width: 30%;
+	float: right;
+}
+.icon ul{
+	list-style: none;
+    float: right;
+    margin-top: 30px;
+}
+.icon ul li{
+	float: left;
+}
+.icon ul li a{
+	font-size: 12px;
+    display: inline-block;
+    font-weight: 400;
+    color: #626262;
+    text-decoration: none;
+    margin: 0 5px;
+    text-transform: uppercase;
+}
+
+
+/* footer end */
